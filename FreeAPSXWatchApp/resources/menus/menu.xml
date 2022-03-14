@@ -1,0 +1,5 @@
+<menu2 id="MainMenu" title="Select action">
+    <menu-item id="Carbs" label="@Strings.carbs_label" subLabel="Enter carbs"/>
+    <menu-item id="TempTargets" label="@Strings.targets_label" />
+    <menu-item id="Bolus" label="@Strings.bolus_label" />
+</menu2>

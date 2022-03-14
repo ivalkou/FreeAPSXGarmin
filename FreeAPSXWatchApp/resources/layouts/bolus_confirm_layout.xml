@@ -1,0 +1,7 @@
+<layout id="BolusConfirmLayout">
+    <text-area id="Header" x="0" y="0" width="100%" height="30%" text="header" font="Graphics.FONT_TINY" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER"/>  
+    <label id="StatusLabel" x="center" y="center" text="Bolus?" font="Graphics.FONT_LARGE" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+
+    <drawable class="BolusCirclesDrawable" />
+
+</layout>

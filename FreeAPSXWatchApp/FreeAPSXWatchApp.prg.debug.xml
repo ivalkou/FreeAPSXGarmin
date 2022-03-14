@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="1" lineNum="8" parent="globals/FreeAPSXWatchAppView" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="1" lineNum="9" parent="globals/FreeAPSXWatchAppView" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="1" lineNum="10" parent="globals/FreeAPSXWatchAppView" pc="268435478" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="2" lineNum="14" parent="globals/FreeAPSXWatchAppView" pc="268435489" symbol="onLayout"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="2" lineNum="15" parent="globals/FreeAPSXWatchAppView" pc="268435493" symbol="onLayout"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="3" lineNum="21" parent="globals/FreeAPSXWatchAppView" pc="268435531" symbol="onShow"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="3" lineNum="22" parent="globals/FreeAPSXWatchAppView" pc="268435535" symbol="onShow"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="3" lineNum="23" parent="globals/FreeAPSXWatchAppView" pc="268435546" symbol="onShow"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="3" lineNum="24" parent="globals/FreeAPSXWatchAppView" pc="268435646" symbol="onShow"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="3" lineNum="26" parent="globals/FreeAPSXWatchAppView" pc="268435659" symbol="onShow"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="4" lineNum="32" parent="globals/FreeAPSXWatchAppView" pc="268435688" symbol="onUpdate"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="4" lineNum="34" parent="globals/FreeAPSXWatchAppView" pc="268435692" symbol="onUpdate"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="5" lineNum="40" parent="globals/FreeAPSXWatchAppView" pc="268435713" symbol="onHide"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="43" parent="globals/FreeAPSXWatchAppView" pc="268435718" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="44" parent="globals/FreeAPSXWatchAppView" pc="268435722" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="45" parent="globals/FreeAPSXWatchAppView" pc="268435733" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="46" parent="globals/FreeAPSXWatchAppView" pc="268435756" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="47" parent="globals/FreeAPSXWatchAppView" pc="268435780" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="48" parent="globals/FreeAPSXWatchAppView" pc="268435837" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="49" parent="globals/FreeAPSXWatchAppView" pc="268435848" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="50" parent="globals/FreeAPSXWatchAppView" pc="268435874" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="6" lineNum="51" parent="globals/FreeAPSXWatchAppView" pc="268435885" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="7" lineNum="4" parent="globals/FreeAPSXWatchAppView" pc="268437639" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppView.mc" id="7" lineNum="4" parent="globals/FreeAPSXWatchAppView" pc="268437639" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="9" lineNum="11" parent="globals/CarbsDelegate" pc="268435912" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="9" lineNum="12" parent="globals/CarbsDelegate" pc="268435916" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="9" lineNum="13" parent="globals/CarbsDelegate" pc="268435934" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="9" lineNum="14" parent="globals/CarbsDelegate" pc="268435944" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="10" lineNum="29" parent="globals/CarbsDelegate" pc="268435979" symbol="onKeyPressed"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="10" lineNum="30" parent="globals/CarbsDelegate" pc="268435983" symbol="onKeyPressed"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="10" lineNum="31" parent="globals/CarbsDelegate" pc="268436006" symbol="onKeyPressed"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="10" lineNum="32" parent="globals/CarbsDelegate" pc="268436029" symbol="onKeyPressed"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="10" lineNum="33" parent="globals/CarbsDelegate" pc="268436070" symbol="onKeyPressed"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="10" lineNum="35" parent="globals/CarbsDelegate" pc="268436076" symbol="onKeyPressed"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="38" parent="globals/CarbsDelegate" pc="268436080" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="39" parent="globals/CarbsDelegate" pc="268436084" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="40" parent="globals/CarbsDelegate" pc="268436127" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="41" parent="globals/CarbsDelegate" pc="268436153" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="42" parent="globals/CarbsDelegate" pc="268436166" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="44" parent="globals/CarbsDelegate" pc="268436177" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="47" parent="globals/CarbsDelegate" pc="268436201" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="48" parent="globals/CarbsDelegate" pc="268436222" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="50" parent="globals/CarbsDelegate" pc="268436239" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="51" parent="globals/CarbsDelegate" pc="268436257" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="11" lineNum="53" parent="globals/CarbsDelegate" pc="268436263" symbol="onKeyReleased"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="12" lineNum="56" parent="globals/CarbsDelegate" pc="268436267" symbol="onHoldTimer"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="12" lineNum="57" parent="globals/CarbsDelegate" pc="268436271" symbol="onHoldTimer"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="12" lineNum="58" parent="globals/CarbsDelegate" pc="268436292" symbol="onHoldTimer"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="61" parent="globals/CarbsDelegate" pc="268436310" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="62" parent="globals/CarbsDelegate" pc="268436314" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="63" parent="globals/CarbsDelegate" pc="268436327" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="65" parent="globals/CarbsDelegate" pc="268436430" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="66" parent="globals/CarbsDelegate" pc="268436451" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="67" parent="globals/CarbsDelegate" pc="268436468" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="69" parent="globals/CarbsDelegate" pc="268436471" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="70" parent="globals/CarbsDelegate" pc="268436492" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="71" parent="globals/CarbsDelegate" pc="268436509" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="73" parent="globals/CarbsDelegate" pc="268436512" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="74" parent="globals/CarbsDelegate" pc="268436533" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="75" parent="globals/CarbsDelegate" pc="268436550" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="77" parent="globals/CarbsDelegate" pc="268436553" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="78" parent="globals/CarbsDelegate" pc="268436574" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="79" parent="globals/CarbsDelegate" pc="268436591" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="13" lineNum="82" parent="globals/CarbsDelegate" pc="268436594" symbol="onSwipe"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="14" lineNum="85" parent="globals/CarbsDelegate" pc="268436598" symbol="add"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="14" lineNum="86" parent="globals/CarbsDelegate" pc="268436602" symbol="add"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="14" lineNum="87" parent="globals/CarbsDelegate" pc="268436624" symbol="add"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="14" lineNum="88" parent="globals/CarbsDelegate" pc="268436647" symbol="add"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="14" lineNum="90" parent="globals/CarbsDelegate" pc="268436669" symbol="add"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="14" lineNum="91" parent="globals/CarbsDelegate" pc="268436692" symbol="add"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="14" lineNum="94" parent="globals/CarbsDelegate" pc="268436714" symbol="add"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="15" lineNum="6" parent="globals/CarbsDelegate" pc="268437726" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsDelegate.mc" id="15" lineNum="6" parent="globals/CarbsDelegate" pc="268437726" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="17" lineNum="7" parent="globals/CarbsView" pc="268436731" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="17" lineNum="8" parent="globals/CarbsView" pc="268436735" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="17" lineNum="9" parent="globals/CarbsView" pc="268436753" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="18" lineNum="13" parent="globals/CarbsView" pc="268436767" symbol="onLayout"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="18" lineNum="14" parent="globals/CarbsView" pc="268436771" symbol="onLayout"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="19" lineNum="20" parent="globals/CarbsView" pc="268436809" symbol="onShow"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="20" lineNum="25" parent="globals/CarbsView" pc="268436814" symbol="onUpdate"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="20" lineNum="28" parent="globals/CarbsView" pc="268436818" symbol="onUpdate"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="20" lineNum="29" parent="globals/CarbsView" pc="268436842" symbol="onUpdate"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="20" lineNum="30" parent="globals/CarbsView" pc="268436872" symbol="onUpdate"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="20" lineNum="32" parent="globals/CarbsView" pc="268436886" symbol="onUpdate"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="21" lineNum="38" parent="globals/CarbsView" pc="268436907" symbol="onHide"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="22" lineNum="4" parent="globals/CarbsView" pc="268437745" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/CarbsView.mc" id="22" lineNum="4" parent="globals/CarbsView" pc="268437745" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppMenuDelegate.mc" id="24" lineNum="9" parent="globals/FreeAPSXWatchAppMenuDelegate" pc="268436912" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppMenuDelegate.mc" id="24" lineNum="10" parent="globals/FreeAPSXWatchAppMenuDelegate" pc="268436916" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppMenuDelegate.mc" id="24" lineNum="11" parent="globals/FreeAPSXWatchAppMenuDelegate" pc="268436934" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppMenuDelegate.mc" id="25" lineNum="14" parent="globals/FreeAPSXWatchAppMenuDelegate" pc="268436945" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppMenuDelegate.mc" id="25" lineNum="15" parent="globals/FreeAPSXWatchAppMenuDelegate" pc="268436949" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppMenuDelegate.mc" id="25" lineNum="16" parent="globals/FreeAPSXWatchAppMenuDelegate" pc="268436962" symbol="onSelect"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppMenuDelegate.mc" id="26" lineNum="5" parent="globals/FreeAPSXWatchAppMenuDelegate" pc="268437620" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppMenuDelegate.mc" id="26" lineNum="5" parent="globals/FreeAPSXWatchAppMenuDelegate" pc="268437620" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppDelegate.mc" id="28" lineNum="6" parent="globals/FreeAPSXWatchAppDelegate" pc="268436983" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppDelegate.mc" id="28" lineNum="7" parent="globals/FreeAPSXWatchAppDelegate" pc="268436987" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppDelegate.mc" id="29" lineNum="4" parent="globals/FreeAPSXWatchAppDelegate" pc="268437658" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppDelegate.mc" id="29" lineNum="4" parent="globals/FreeAPSXWatchAppDelegate" pc="268437658" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="31" lineNum="7" parent="globals/FreeAPSXWatchAppApp" pc="268437006" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="31" lineNum="8" parent="globals/FreeAPSXWatchAppApp" pc="268437010" symbol="initialize"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="32" lineNum="12" parent="globals/FreeAPSXWatchAppApp" pc="268437029" symbol="onStart"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="33" lineNum="16" parent="globals/FreeAPSXWatchAppApp" pc="268437034" symbol="onStop"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="34" lineNum="20" parent="globals/FreeAPSXWatchAppApp" pc="268437039" symbol="getInitialView"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="34" lineNum="21" parent="globals/FreeAPSXWatchAppApp" pc="268437043" symbol="getInitialView"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="35" lineNum="5" parent="globals/FreeAPSXWatchAppApp" pc="268437764" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="35" lineNum="5" parent="globals/FreeAPSXWatchAppApp" pc="268437764" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="36" lineNum="25" parent="globals" pc="268437111" symbol="getApp"/>
+        <entry filename="/Users/i.valkou/Documents/code/FreeAPSXGarmin/FreeAPSXWatchApp/source/FreeAPSXWatchAppApp.mc" id="36" lineNum="26" parent="globals" pc="268437123" symbol="getApp"/>
+        <entry filename="Rez" id="38" lineNum="2" parent="globals/Rez/Drawables" pc="268437701" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="39" lineNum="6" parent="globals/Rez/Fonts" pc="268437722" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="40" lineNum="8" parent="globals/Rez/JsonData" pc="268437724" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="41" lineNum="17" parent="globals/Rez/Layouts" pc="268437140" symbol="MainLayout"/>
+        <entry filename="Rez" id="41" lineNum="18" parent="globals/Rez/Layouts" pc="268437152" symbol="MainLayout"/>
+        <entry filename="Rez" id="42" lineNum="25" parent="globals/Rez/Layouts" pc="268437160" symbol="CarbsLayout"/>
+        <entry filename="Rez" id="42" lineNum="27" parent="globals/Rez/Layouts" pc="268437172" symbol="CarbsLayout"/>
+        <entry filename="Rez" id="42" lineNum="29" parent="globals/Rez/Layouts" pc="268437348" symbol="CarbsLayout"/>
+        <entry filename="Rez" id="43" lineNum="10" parent="globals/Rez/Layouts" pc="268437723" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="44" lineNum="43" parent="globals/Rez/Menus/MainMenu" pc="268437366" symbol="initialize"/>
+        <entry filename="Rez" id="44" lineNum="44" parent="globals/Rez/Menus/MainMenu" pc="268437370" symbol="initialize"/>
+        <entry filename="Rez" id="44" lineNum="45" parent="globals/Rez/Menus/MainMenu" pc="268437407" symbol="initialize"/>
+        <entry filename="Rez" id="44" lineNum="46" parent="globals/Rez/Menus/MainMenu" pc="268437480" symbol="initialize"/>
+        <entry filename="Rez" id="44" lineNum="47" parent="globals/Rez/Menus/MainMenu" pc="268437549" symbol="initialize"/>
+        <entry filename="Rez" id="45" lineNum="41" parent="globals/Rez/Menus/MainMenu" pc="268437703" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="45" lineNum="41" parent="globals/Rez/Menus/MainMenu" pc="268437703" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="46" lineNum="34" parent="globals/Rez/Menus" pc="268437702" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="47" lineNum="53" parent="globals/Rez/Strings" pc="268437725" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="48" lineNum="1" parent="globals/Rez" pc="268437677" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="48" lineNum="1" parent="globals/Rez" pc="268437677" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="23" symbol="carbs_label"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="32" symbol="input"/>
+        <entry id="8389346" symbol="text"/>
+        <entry field="true" id="24" symbol="targets_label"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="21" method="true" symbol="MainLayout"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8389554" method="true" symbol="onKeyReleased"/>
+        <entry field="true" id="27" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388942" method="true" symbol="add"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="11" object="true" symbol="CarbsView"/>
+        <entry field="true" id="15" symbol="&lt;globals/FreeAPSXWatchAppMenuDelegate/&lt;&gt;_callback&gt;"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="26" symbol="prompt"/>
+        <entry id="13" object="true" symbol="FreeAPSXWatchAppDelegate"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8389553" method="true" symbol="onKeyPressed"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="29" symbol="keyPressedTime"/>
+        <entry id="18" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="28" symbol="&lt;globals/CarbsDelegate/&lt;&gt;_view&gt;"/>
+        <entry id="14" object="true" symbol="FreeAPSXWatchAppApp"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="10" object="true" symbol="CarbsDelegate"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="20" object="true" symbol="MainMenu"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="34" symbol="TempTargets"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="33" symbol="Carbs"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="19" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="16" symbol="firstShow"/>
+        <entry id="12" object="true" symbol="FreeAPSXWatchAppMenuDelegate"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="22" method="true" symbol="CarbsLayout"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="17" module="true" symbol="Layouts"/>
+        <entry field="true" id="25" symbol="bolus_label"/>
+        <entry id="9" object="true" symbol="FreeAPSXWatchAppView"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="35" symbol="Bolus"/>
+        <entry field="true" id="30" symbol="mTimer"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="31" method="true" symbol="onHoldTimer"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry id="8389101" method="true" symbol="onSwipe"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435530" name="dc" stackId="1" startPc="268435489"/>
+        <entry arg="true" endPc="268435712" name="dc" stackId="1" startPc="268435688"/>
+        <entry endPc="268435833" name="view" stackId="2" startPc="268435733"/>
+        <entry arg="true" endPc="268435911" name="id" stackId="1" startPc="268435718"/>
+        <entry arg="true" endPc="268435978" name="view" stackId="1" startPc="268435912"/>
+        <entry arg="true" endPc="268436079" name="keyEvent" stackId="1" startPc="268435979"/>
+        <entry endPc="268436259" name="delta" stackId="2" startPc="268436127"/>
+        <entry arg="true" endPc="268436266" name="keyEvent" stackId="1" startPc="268436080"/>
+        <entry endPc="268436596" name="dir" stackId="2" startPc="268436314"/>
+        <entry arg="true" endPc="268436597" name="swipeEvent" stackId="1" startPc="268436310"/>
+        <entry arg="true" endPc="268436730" name="value" stackId="1" startPc="268436598"/>
+        <entry arg="true" endPc="268436808" name="dc" stackId="1" startPc="268436767"/>
+        <entry endPc="268436905" name="view" stackId="2" startPc="268436818"/>
+        <entry endPc="268436905" name="string" stackId="3" startPc="268436818"/>
+        <entry arg="true" endPc="268436906" name="dc" stackId="1" startPc="268436814"/>
+        <entry arg="true" endPc="268436944" name="callback" stackId="1" startPc="268436912"/>
+        <entry endPc="268436981" name="id" stackId="2" startPc="268436949"/>
+        <entry arg="true" endPc="268436982" name="item" stackId="1" startPc="268436945"/>
+        <entry arg="true" endPc="268437033" name="state" stackId="1" startPc="268437029"/>
+        <entry arg="true" endPc="268437038" name="state" stackId="1" startPc="268437034"/>
+        <entry arg="true" endPc="268437159" name="dc" stackId="1" startPc="268437140"/>
+        <entry endPc="268437364" name="rez_cmp_local_text_InputLabel" stackId="2" startPc="268437172"/>
+        <entry arg="true" endPc="268437365" name="dc" stackId="1" startPc="268437160"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="carbs_label"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="targets_label"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="bolus_label"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/FreeAPSXWatchAppMenuDelegate" offset="190" parentId="globals" symbolId="FreeAPSXWatchAppMenuDelegate" type="class"/>
+        <dataEntry label="globals/FreeAPSXWatchAppView" offset="253" parentId="globals" symbolId="FreeAPSXWatchAppView" type="class"/>
+        <dataEntry label="globals/FreeAPSXWatchAppDelegate" offset="348" parentId="globals" symbolId="FreeAPSXWatchAppDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="395" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="474" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="513" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="552" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/Rez/Fonts" offset="599" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="630" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="677" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="708" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/CarbsDelegate" offset="779" parentId="globals" symbolId="CarbsDelegate" type="class"/>
+        <dataEntry label="globals/CarbsView" offset="890" parentId="globals" symbolId="CarbsView" type="class"/>
+        <dataEntry label="globals/FreeAPSXWatchAppApp" offset="977" parentId="globals" symbolId="FreeAPSXWatchAppApp" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435488" name="initialize" parent="FreeAPSXWatchAppView" startPc="268435456">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435530" name="onLayout" parent="FreeAPSXWatchAppView" startPc="268435489">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435687" name="onShow" parent="FreeAPSXWatchAppView" startPc="268435531">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435712" name="onUpdate" parent="FreeAPSXWatchAppView" startPc="268435688">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435717" name="onHide" parent="FreeAPSXWatchAppView" startPc="268435713">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435911" name="onSelect" parent="FreeAPSXWatchAppView" startPc="268435718">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437657" name="&lt;init&gt;" parent="FreeAPSXWatchAppView" startPc="268437639">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435978" name="initialize" parent="CarbsDelegate" startPc="268435912">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436079" name="onKeyPressed" parent="CarbsDelegate" startPc="268435979">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436266" name="onKeyReleased" parent="CarbsDelegate" startPc="268436080">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436309" name="onHoldTimer" parent="CarbsDelegate" startPc="268436267">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436597" name="onSwipe" parent="CarbsDelegate" startPc="268436310">
+            <param id="swipeEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436730" name="add" parent="CarbsDelegate" startPc="268436598">
+            <param id="value"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437744" name="&lt;init&gt;" parent="CarbsDelegate" startPc="268437726">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436766" name="initialize" parent="CarbsView" startPc="268436731">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436808" name="onLayout" parent="CarbsView" startPc="268436767">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436813" name="onShow" parent="CarbsView" startPc="268436809">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436906" name="onUpdate" parent="CarbsView" startPc="268436814">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436911" name="onHide" parent="CarbsView" startPc="268436907">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437763" name="&lt;init&gt;" parent="CarbsView" startPc="268437745">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436944" name="initialize" parent="FreeAPSXWatchAppMenuDelegate" startPc="268436912">
+            <param id="callback"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436982" name="onSelect" parent="FreeAPSXWatchAppMenuDelegate" startPc="268436945">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437638" name="&lt;init&gt;" parent="FreeAPSXWatchAppMenuDelegate" startPc="268437620">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437005" name="initialize" parent="FreeAPSXWatchAppDelegate" startPc="268436983">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437676" name="&lt;init&gt;" parent="FreeAPSXWatchAppDelegate" startPc="268437658">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437028" name="initialize" parent="FreeAPSXWatchAppApp" startPc="268437006">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437033" name="onStart" parent="FreeAPSXWatchAppApp" startPc="268437029">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437038" name="onStop" parent="FreeAPSXWatchAppApp" startPc="268437034">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437110" name="getInitialView" parent="FreeAPSXWatchAppApp" startPc="268437039">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437782" name="&lt;init&gt;" parent="FreeAPSXWatchAppApp" startPc="268437764">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437139" name="getApp" startPc="268437111">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437701" name="&lt;init&gt;" parent="Drawables" startPc="268437701">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437722" name="&lt;init&gt;" parent="Fonts" startPc="268437722">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437724" name="&lt;init&gt;" parent="JsonData" startPc="268437724">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437159" name="MainLayout" parent="Layouts" startPc="268437140">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437365" name="CarbsLayout" parent="Layouts" startPc="268437160">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437723" name="&lt;init&gt;" parent="Layouts" startPc="268437723">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437618" name="initialize" parent="MainMenu" startPc="268437366">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437721" name="&lt;init&gt;" parent="MainMenu" startPc="268437703">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437702" name="&lt;init&gt;" parent="Menus" startPc="268437702">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437725" name="&lt;init&gt;" parent="Strings" startPc="268437725">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437700" name="&lt;init&gt;" parent="Rez" startPc="268437677">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

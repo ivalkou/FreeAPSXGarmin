@@ -1,0 +1,57 @@
+<layout id="InputLayout">
+    
+    <drawable id="PlusButton" class="CustomButton">
+        <param name="locX">0</param>
+        <param name="locY">0</param>
+        <param name="width">dc.getWidth() * 0.5</param>
+        <param name="height">dc.getHeight() * 0.3</param>
+        <param name="stateDefault">Graphics.COLOR_DK_GRAY</param>
+        <param name="stateHighlighted">Graphics.COLOR_LT_GRAY</param>
+    </drawable>
+
+    <label id="PlusLabel" x="30%" y="20%" text="+" font="Graphics.FONT_NUMBER_MEDIUM" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" />
+
+
+    <drawable id="OkButton" class="CustomButton">
+        <param name="locX">dc.getWidth() * 0.5</param>
+        <param name="locY">0</param>
+        <param name="width">dc.getWidth() * 0.5</param>
+        <param name="height">dc.getHeight() * 0.3</param>
+        <param name="stateDefault">Graphics.COLOR_DK_GRAY</param>
+        <param name="stateHighlighted">Graphics.COLOR_LT_GRAY</param>
+        <param name="stateDisabled">Graphics.COLOR_BLACK</param>
+    </drawable>
+
+    <label id="OkLabel" x="70%" y="20%" text="OK" font="Graphics.FONT_MEDIUM" color="Graphics.COLOR_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" />
+
+    <drawable id="line1" />
+    <drawable id="line1_1" />
+
+    <label id="InputLabel" x="center" y="center" text="--" font="Graphics.FONT_LARGE" color="Graphics.COLOR_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+
+    <drawable id="MinusButton" class="CustomButton">
+        <param name="locX">0</param>
+        <param name="locY">dc.getHeight() * 0.7</param>
+        <param name="width">dc.getWidth() * 0.5</param>
+        <param name="height">dc.getHeight() * 0.3</param>
+        <param name="stateDefault">Graphics.COLOR_DK_GRAY</param>
+        <param name="stateHighlighted">Graphics.COLOR_LT_GRAY</param>
+    </drawable>
+
+    <label id="MinusLabel" x="30%" y="80%" text="-" font="Graphics.FONT_NUMBER_MEDIUM" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" />
+
+    <drawable id="CancelButton" class="CustomButton">
+        <param name="locX">dc.getWidth() * 0.5</param>
+        <param name="locY">dc.getHeight() * 0.7</param>
+        <param name="width">dc.getWidth() * 0.5</param>
+        <param name="height">dc.getHeight() * 0.3</param>
+        <param name="stateDefault">Graphics.COLOR_DK_GRAY</param>
+        <param name="stateHighlighted">Graphics.COLOR_LT_GRAY</param>
+    </drawable>
+
+    <label id="CancelLabel" x="70%" y="80%" text="X" font="Graphics.FONT_MEDIUM" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" />
+
+    <drawable id="line2" />
+    <drawable id="line2_1" />
+    
+</layout>

@@ -1,0 +1,9 @@
+<strings>
+    <string id="AppName">FreeAPSXWatchApp</string>
+
+    <string id="prompt">Click the menu button</string>
+
+    <string id="carbs_label">Carbs</string>
+    <string id="targets_label">Temp Targets</string>
+    <string id="bolus_label">Bolus</string>
+</strings>

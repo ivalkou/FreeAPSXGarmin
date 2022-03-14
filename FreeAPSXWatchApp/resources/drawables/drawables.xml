@@ -1,0 +1,20 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+
+    <drawable-list id="line1">
+        <shape type="rectangle" x="0" y="30%" width="100%" height="1" color="Graphics.COLOR_LT_GRAY"/>
+    </drawable-list>
+
+    <drawable-list id="line1_1">
+        <shape type="rectangle" x="50%" y="0" width="1" height="30%" color="Graphics.COLOR_LT_GRAY"/>
+    </drawable-list>
+
+    <drawable-list id="line2">
+        <shape type="rectangle" x="0" y="70%" width="100%" height="1" color="Graphics.COLOR_LT_GRAY"/>
+    </drawable-list>
+
+    <drawable-list id="line2_1">
+        <shape type="rectangle" x="50%" y="70%" width="1" height="30%" color="Graphics.COLOR_LT_GRAY"/>
+    </drawable-list>
+
+</drawables>
