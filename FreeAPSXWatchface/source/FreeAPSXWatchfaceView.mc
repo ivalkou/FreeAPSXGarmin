@@ -84,11 +84,17 @@ class FreeAPSXWatchfaceView extends WatchUi.WatchFace {
     }
 
     function setSteps() as Void {
-        var info = ActivityMonitor.getInfo();
-        var steps = info.steps;
-        var stepsString = (steps == null || steps == 0) ? "--" : steps.toString();
+
+        var myStats = System.getSystemStats();
+        var batlevel = myStats.battery;
+        var batString = Lang.format( "$1$%", [ batlevel.format( "%2d" ) ] );  
+       
+        var info =  ActivityMonitor.getInfo(); 
+        var steps =   info.steps; 
+        var stepsString = (steps == null || steps == 0) ? "--" : steps.toString();   
+        
         var view = View.findDrawableById("StepsLabel") as Text;
-        view.setText(stepsString);
+        view.setText(batString);
     }
 
     function setIOB() as Void {
