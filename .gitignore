@@ -1,2 +1,9 @@
 FreeAPSXWatchApp/bin
 FreeAPSXWatchface/bin
+FreeAPSXDataField/bin
+
+.vscode
+
+.DS_Store
+
+developer_key

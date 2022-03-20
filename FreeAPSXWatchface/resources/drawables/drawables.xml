@@ -24,7 +24,7 @@
         </bitmap>
     </drawable-list>
     <drawable-list id="StepsIcon">
-        <bitmap id="Steps" filename="steps.svg" x="50%" y="63%" scaleY="9%" scaleRelativeTo="screen">
+        <bitmap id="Steps" filename="steps.svg" x="45%" y="65%" scaleY="15%" scaleRelativeTo="screen">
             <palette>
                 <color>FFFFFF</color>
             </palette> 
