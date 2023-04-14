@@ -34,10 +34,6 @@ class FreeAPSXDataFieldApp extends Application.AppBase {
         return [ new FreeAPSXDataFieldView() ] as Array<Views or InputDelegates>;
     }
 
-    function onBackgroundData(data as String) {
-        System.println("Got BG data: " + data.toString());
-    }
-
     function getServiceDelegate() {
         return [new FreeAPSXBGServiceDelegate()];
     }

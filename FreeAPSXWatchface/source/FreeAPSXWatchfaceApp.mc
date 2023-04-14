@@ -40,10 +40,6 @@ class FreeAPSXWatchfaceApp extends Application.AppBase {
         WatchUi.requestUpdate();
     }
 
-    function onBackgroundData(data as String) {
-        System.println("Got BG data: " + data.toString());
-    }
-
     function getServiceDelegate() {
         return [new FreeAPSXBGServiceDelegate()];
     }
