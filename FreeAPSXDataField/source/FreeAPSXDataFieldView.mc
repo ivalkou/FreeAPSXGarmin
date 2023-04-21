@@ -125,9 +125,10 @@ class FreeAPSXDataFieldView extends WatchUi.DataField {
 
     function getLoopColor(min as Number) as Number {
         if (min < 0) {
-            return Graphics.COLOR_LT_GRAY as Number;
+            return Graphics.COLOR_TRANSPARENT as Number;
         } else if (min <= 5) {
-            return Graphics.COLOR_GREEN as Number;
+            return Graphics.COLOR_TRANSPARENT as Number;
+            // return Graphics.COLOR_GREEN as Number;
         } else if (min <= 10) {
             return Graphics.COLOR_YELLOW as Number;
         } else {
