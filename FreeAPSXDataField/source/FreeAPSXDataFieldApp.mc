@@ -20,7 +20,6 @@ class FreeAPSXDataFieldApp extends Application.AppBase {
     if(Toybox.System has :ServiceDelegate) {
             // canDoBG=true;
             Background.registerForTemporalEvent(new Time.Duration(5 * 60));
-            
             if (Background has :registerForPhoneAppMessageEvent) {
                 Background.registerForPhoneAppMessageEvent();
                 System.println("****background is ok****");
