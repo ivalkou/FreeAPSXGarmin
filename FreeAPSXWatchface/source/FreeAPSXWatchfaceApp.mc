@@ -18,12 +18,20 @@ class FreeAPSXWatchfaceApp extends Application.AppBase {
         if(Toybox.System has :ServiceDelegate) {
             // canDoBG=true;
             Background.registerForTemporalEvent(new Time.Duration(5 * 60));
-            Background.registerForPhoneAppMessageEvent();
+            if (Background has :registerForPhoneAppMessageEvent) {
+                Background.registerForPhoneAppMessageEvent();
+                System.println("****background is ok****");
+            } 
             System.println("****background is ok****");
         } else {
             System.println("****background not available on this device****");
         }
         
+    }
+
+    function onBackgroundData(data) {
+        Application.Storage.setValue("status", data as Dictionary);
+        WatchUi.requestUpdate();
     }
 
     // onStop() is called when your application is exiting

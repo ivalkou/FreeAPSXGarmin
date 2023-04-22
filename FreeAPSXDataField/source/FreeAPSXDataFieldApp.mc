@@ -24,7 +24,9 @@ class FreeAPSXDataFieldApp extends Application.AppBase {
             if (Background has :registerForPhoneAppMessageEvent) {
                 Background.registerForPhoneAppMessageEvent();
                 System.println("****background is ok****");
-            } 
+            } else {
+                  System.println("****registerForPhoneAppMessageEvent is not available****");
+            }
             
         } else {
             System.println("****background not available on this device****");

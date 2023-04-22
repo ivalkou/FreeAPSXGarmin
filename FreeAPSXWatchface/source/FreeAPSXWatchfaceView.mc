@@ -27,13 +27,16 @@ class FreeAPSXWatchfaceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
+
+        var status = Application.Storage.getValue("status") as Dictionary;
+
         setTime();
         setDate();
         setHeartRate();
         setSteps();
-        setIOB();
-        setCOB();
-        setEventualBG();
+        setIOB(status);
+        setCOB(status);
+        setEventualBG(status);
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
@@ -97,50 +100,64 @@ class FreeAPSXWatchfaceView extends WatchUi.WatchFace {
         view.setText(batString);
     }
 
-    function setIOB() as Void {
+    function setIOB(status) as Void {
         var view = View.findDrawableById("IOBLabel") as Text;
-
-        var status = Application.Storage.getValue("status") as Dictionary;
-        if (status == null) {
+        var iobString;
+         if (status instanceof Dictionary)  {
+            var iob = status["iob"];
+            if (iob instanceof Number) {
+                iobString = (iob == null) ? "--" : iob.format("%3.2f") + " U";
+            } else {
+                iobString = (iob == null) ? "--" : iob + " U";
+            }
+            
+            view.setText(iobString);
+            return;
+            
+        } else {
             view.setText("--");
             return;
         }
-        var iob = status["iob"] as Number;
-
-        var iobString = (iob == null) ? "--" : iob.format("%3.2f") + " U";
-  
-        view.setText(iobString);
+        
     }
 
-    function setCOB() as Void {
+    function setCOB(status) as Void {
         var view = View.findDrawableById("COBLabel") as Text;
 
-        var status = Application.Storage.getValue("status") as Dictionary;
-        if (status == null) {
+        if (status instanceof Dictionary)  {
+            var cob = status["cob"];
+            var cobString;
+            if (cob instanceof Number) {
+              cobString = (cob == null) ? "--" : cob.format("%3d") + " g";
+            } else {
+              cobString = (cob == null) ? "--" : cob + " g";
+            }
+            view.setText(cobString);
+            return;
+        } else {
             view.setText("--");
             return;
         }
-        var cob = status["cob"] as Number;
-
-        var cobString = (cob == null) ? "--" : cob.format("%3d") + " g";
-  
-        view.setText(cobString);
+        
     }
 
-    function setEventualBG() as Void {
+    function setEventualBG(status) as Void {
         var view = View.findDrawableById("EventualBGLabel") as Text;
         view.setColor(getApp().getProperty("PrimaryColor") as Number);
 
-        var status = Application.Storage.getValue("status") as Dictionary;
-        if (status == null) {
+          if (status instanceof Dictionary)  {
+            var ebg = status["eventualBGRaw"];
+            if (ebg instanceof Number) {
+                ebg = ebg.format("%d");
+            }
+            var ebgString = (ebg == null) ? "--" : ebg;
+            view.setText(ebgString);
+            return; 
+        } else {
             view.setText("--");
             return;
         }
-        var ebg = status["eventualBGRaw"] as String;
-
-        var ebgString = (ebg == null) ? "--" : ebg;
-  
-        view.setText(ebgString);
+        
     }
 
     // Called when this View is removed from the screen. Save the

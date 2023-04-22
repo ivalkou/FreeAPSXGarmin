@@ -20,8 +20,9 @@ class HeaderDrawable extends WatchUi.Drawable {
         var width = dc.getWidth() as Number;
         var height = dc.getHeight() as Number;
         var primaryColor = getApp().getProperty("PrimaryColor") as Number;
-        var glucoseText = getGlucoseText();
-        var deltaText = getDeltaText();
+        var status = Application.Storage.getValue("status") as Dictionary;
+        var glucoseText = getGlucoseText(status);
+        var deltaText = getDeltaText(status);
         var glucoseWidth = dc.getTextWidthInPixels(glucoseText, Graphics.FONT_LARGE) as Number;
         var glucoseHeight = dc.getFontHeight(Graphics.FONT_LARGE) as Number;
         var deltaHeight = dc.getFontHeight(Graphics.FONT_XTINY) as Number;
@@ -36,13 +37,15 @@ class HeaderDrawable extends WatchUi.Drawable {
 
         dc.drawText(glucoseX  + glucoseWidth + width * 0.01, 
             glucoseY + (glucoseHeight - deltaHeight) - deltaHeight * 0.2, 
-            Graphics.FONT_XTINY, 
+            Graphics.FONT_SYSTEM_XTINY,
             deltaText, 
             Graphics.TEXT_JUSTIFY_LEFT);
+        
+        
+        //fenix 5 not display 
+        dc.drawBitmap(glucoseX  + glucoseWidth + width * 0.01, glucoseY + height * 0.025, getDirection(status));
 
-        dc.drawBitmap(glucoseX  + glucoseWidth + width * 0.01, glucoseY + height * 0.025, getDirection());
-
-        var min = getMinutes();
+        var min = getMinutes(status);
         var loopColor = getLoopColor(min);
 
         dc.setColor(loopColor, Graphics.COLOR_TRANSPARENT);
@@ -53,6 +56,7 @@ class HeaderDrawable extends WatchUi.Drawable {
         var loopString = (min < 0 ? "--" : min.format("%d")) + " min";
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         // dc.drawText(width * 0.85, 
+        //fenix 5 --> change 0.4 by 0.45
         dc.drawText(width * 0.4, 
             glucoseY + (glucoseHeight - deltaHeight) - deltaHeight * 0.2, 
             Graphics.FONT_XTINY, 
@@ -60,87 +64,91 @@ class HeaderDrawable extends WatchUi.Drawable {
             Graphics.TEXT_JUSTIFY_RIGHT);
     }
 
-    function getGlucoseText() as String {
-        var status = Application.Storage.getValue("status") as Dictionary;
-        if (status == null) {
-            return "--";
-        }
-        var bg = status["glucose"] as String;
-
-        var bgString = (bg == null) ? "--" : bg;
-
-        return bgString;
-    }
-
-    function getDeltaText() as String {
-        var status = Application.Storage.getValue("status") as Dictionary;
-        if (status == null) {
-            return "--";
-        }
-        var delta = status["delta"] as String;
-
-        var deltaString = (delta == null) ? "--" : delta;
-
-        return deltaString;
-    }
-
-    function getDirection() as BitmapType {
-        var bitmap = WatchUi.loadResource(Rez.Drawables.Unknown);
-        var status = Application.Storage.getValue("status") as Dictionary;
-        if (status == null) {
-            return bitmap;
-        }
-        var trend = status["trendRaw"] as String;
-        if (trend == null) {
-            return bitmap;
-        }
-
-        switch (trend) {
-            case "Flat":
-                bitmap = WatchUi.loadResource(Rez.Drawables.Flat);
-                break;
-            case "SingleUp":
-                bitmap = WatchUi.loadResource(Rez.Drawables.SingleUp);
-                break;
-            case "SingleDown":
-                bitmap = WatchUi.loadResource(Rez.Drawables.SingleDown);
-                break;
-            case "FortyFiveUp":
-                bitmap = WatchUi.loadResource(Rez.Drawables.FortyFiveUp);
-                break;
-            case "FortyFiveDown":
-                bitmap = WatchUi.loadResource(Rez.Drawables.FortyFiveDown);
-                break;
-            case "DoubleUp":
-            case "TripleUp":
-                bitmap = WatchUi.loadResource(Rez.Drawables.DoubleUp);
-                break;
-            case "DoubleDown":
-            case "TripleDown":
-                bitmap = WatchUi.loadResource(Rez.Drawables.DoubleDown);
-                break;
-            default: break;
-        }
-
-        return bitmap;
-    }
-
-    function getMinutes() as Number {
-        var status = Application.Storage.getValue("status") as Dictionary;
-        if (status == null) {
-            return -1;
-        }
-        var lastLoopDate = status["lastLoopDateInterval"] as Number;
-
-        if (lastLoopDate == null) {
-            return -1;
-        }
-
-        var now = Time.now().value() as Number;
+    function getGlucoseText(status) as String {
         
-        var min = (now - lastLoopDate) / 60;
+        if (status instanceof Dictionary)  {
+            var bg = status["glucose"] as String;
+            var bgString = (bg == null) ? "--" : bg;
+            return bgString;
+          
+        } else {
+              return "--";
+        }
+        
+    }
 
-        return min;
+    function getDeltaText(status) as String {
+        
+       if (status instanceof Dictionary)  {
+            var delta = status["delta"] as String;
+            var deltaString = (delta == null) ? "--" : delta;
+            return deltaString;
+           
+        } else {
+             return "--";
+        }
+        
+    }
+
+    function getDirection(status) as BitmapType {
+        var bitmap = WatchUi.loadResource(Rez.Drawables.Unknown);
+        if (status instanceof Dictionary)  {
+            var trend = status["trendRaw"] as String;
+            if (trend == null) {
+                return bitmap;
+            }
+
+            switch (trend) {
+                case "Flat":
+                    bitmap = WatchUi.loadResource(Rez.Drawables.Flat);
+                    break;
+                case "SingleUp":
+                    bitmap = WatchUi.loadResource(Rez.Drawables.SingleUp);
+                    break;
+                case "SingleDown":
+                    bitmap = WatchUi.loadResource(Rez.Drawables.SingleDown);
+                    break;
+                case "FortyFiveUp":
+                    bitmap = WatchUi.loadResource(Rez.Drawables.FortyFiveUp);
+                    break;
+                case "FortyFiveDown":
+                    bitmap = WatchUi.loadResource(Rez.Drawables.FortyFiveDown);
+                    break;
+                case "DoubleUp":
+                case "TripleUp":
+                    bitmap = WatchUi.loadResource(Rez.Drawables.DoubleUp);
+                    break;
+                case "DoubleDown":
+                case "TripleDown":
+                    bitmap = WatchUi.loadResource(Rez.Drawables.DoubleDown);
+                    break;
+                default: break;
+            }
+
+            return bitmap;
+        } else {
+            return bitmap;
+        }
+        
+    }
+
+    function getMinutes(status) as Number {
+       
+        if (status instanceof Dictionary)  {
+            var lastLoopDate = status["lastLoopDateInterval"] as Number;
+            if (lastLoopDate == null) {
+                return -1;
+            }
+
+            var now = Time.now().value() as Number;
+            
+            var min = (now - lastLoopDate) / 60;
+
+            return min;
+        } else {
+            return -1;
+        }
+        
     }
 
     function getLoopColor(min as Number) as Number {
