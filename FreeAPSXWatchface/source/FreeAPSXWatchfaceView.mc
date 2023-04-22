@@ -108,7 +108,7 @@ class FreeAPSXWatchfaceView extends WatchUi.WatchFace {
             if (iob instanceof Number) {
                 iobString = (iob == null) ? "--" : iob.format("%3.2f") + " U";
             } else {
-                iobString = (iob == null) ? "--" : iob + " U";
+                iobString = (iob == null) ? "--" : iob.toNumber().format("%3.2f") + " U";
             }
             
             view.setText(iobString);
@@ -117,8 +117,7 @@ class FreeAPSXWatchfaceView extends WatchUi.WatchFace {
         } else {
             view.setText("--");
             return;
-        }
-        
+        }  
     }
 
     function setCOB(status) as Void {
@@ -130,7 +129,7 @@ class FreeAPSXWatchfaceView extends WatchUi.WatchFace {
             if (cob instanceof Number) {
               cobString = (cob == null) ? "--" : cob.format("%3d") + " g";
             } else {
-              cobString = (cob == null) ? "--" : cob + " g";
+              cobString = (cob == null) ? "--" : cob.toNumber().format("%3d") + " g";
             }
             view.setText(cobString);
             return;

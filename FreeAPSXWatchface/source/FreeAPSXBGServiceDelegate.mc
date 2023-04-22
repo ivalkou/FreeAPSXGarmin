@@ -20,14 +20,11 @@ class FreeAPSXBGServiceDelegate extends System.ServiceDelegate {
 
     function onTemporalEvent() {
         System.println("Temp event");
-     
         Communications.transmit("status", null, new CommsRelay(method(:onTransmitComplete)));
         // call the callback if data is available
         phoneCallback = method(:onReceiveMessage) as Communications.PhoneMessageCallback;
         Communications.registerForPhoneAppMessages(phoneCallback);
-       
         Background.exit(null);
-    
     }
 
     function onPhoneAppMessage(msg) {
